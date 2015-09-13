@@ -1,0 +1,181 @@
+/*
+Theme Name:     BIM
+Description:    Building for a purpose!
+Author:         Kishore Ramesh
+Template:       vantage
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+
+.main-navigation {
+    margin: 0 -35px;
+    background: #337935;
+    position: relative;
+    font-size: 0;
+}
+
+/* Main Nav Alignment */ 
+.main-navigation ul {
+    text-align: left;
+    list-style: none;
+    margin: 0px -15px;
+    padding-left: 0;
+    zoom: 1;
+}
+
+/*Header container*/
+#masthead .hgroup {
+    zoom: 1;
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Main Menu Alignment */
+.main-navigation ul li {
+    display: inline-block;
+    font-size: 14px;
+    position: relative;
+    padding: 0 18px;
+}
+
+/*Hovering effect */
+.main-navigation ul li:hover > a {
+  background: #ffffff;
+  color: #337935;
+  padding: 5px  19px;
+border-radius: 5px;
+}
+
+/* Headline */
+.widget_headline-widget h1 {
+    padding-top: 20px;
+    margin: 0;
+    font-size: 40px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #337935;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: Open Sans Light;
+}
+
+/* Sub Headline */
+.widget_headline-widget h3 {
+    padding-bottom: 20px;
+    margin: 0;
+    font-size: 18px;
+    color: #666666;
+    font-weight: 200;
+    font-family: Open Sans Light;
+}
+
+/* Hover Effects */
+.ihover-container li {
+    background: none repeat scroll 0 0 transparent;
+    float: left;
+    list-style: none outside none;
+    margin: 0 40px 50px 0;
+    padding: 0;
+    width: 300px;
+}
+
+/* Column Heading */
+.entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6 {
+    color: #444444;
+    margin: 1em 0 0 45px;
+    font-weight: 500;
+}
+
+/* Sub menu items */
+.main-navigation ul ul li:hover > a {
+  background: #ffffff;
+  color: #337935;
+}
+
+/* Sub menu items alignment */
+.main-navigation ul ul {
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    background: #FFFFFF;
+    font color: #3A3939;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 99999;
+    border-radius: 10px;
+}
+
+/* Search Icon */
+#search-icon #search-icon-icon {
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  cursor: pointer;
+  background-color: #337935;
+  width: 59px;
+  height: 100%;
+}
+
+#search-icon #search-icon-icon:hover {
+  background: #101010;
+}
+
+/* LAYOUT WIDTH */
+
+body.responsive #page-wrapper {
+  max-width: 1150px;
+  width: auto;
+  overflow-x: hidden;
+}
+
+body.responsive.layout-full #page-wrapper .full-container {
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* circle icon alignments */
+.widget_circleicon-widget .circle-icon-box h4 {
+    color: #337935;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 0.8em;
+    margin-top: 0;
+    text-align: center;
+    margin-left: -5px;
+}
+
+.widget_circleicon-widget .circle-icon-box .circle-icon {
+    position: absolute;
+    background-color: #337935;
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    -webkit-border-radius: 130px;
+    -moz-border-radius: 130px;
+    border-radius: 130px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* End */
+
+/* Footer alignments */
+
+#footer-widgets .widget a {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
